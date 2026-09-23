@@ -36,7 +36,7 @@ const _kServedEntryGracePeriod = Duration(seconds: 30);
 /// entries. Only a bound on bookkeeping, not on how many entries are guarded.
 const _kServedEntryPruneThreshold = 64;
 
-const _supportedFileNames = ['jpg', 'jpeg', 'png', 'tga', 'cur', 'ico'];
+const _supportedFileNames = ['jpg', 'jpeg', 'png', 'tga', 'cur', 'ico', 'webp'];
 
 /// Sanitizes a key so it doesn't exceed Hive's 255-character limit for string keys.
 String _sanitizeBoxKey(String key) {
